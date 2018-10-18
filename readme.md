@@ -8,3 +8,14 @@
         
 >netty本身并不遵循servlet规范
 
+# netty与socket
+>netty没有请求路由
+
+- netty编程的步骤
+
+服务器端 
+  - 1、定义bossGroup和workerGroup
+  - 2、定义initializer 添加handler
+  - 3、编写handler 写事件回调方法
+
+
