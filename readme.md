@@ -18,4 +18,4 @@
   - 2、定义initializer 添加handler
   - 3、编写handler 写事件回调方法
 
-
+# 多客户端的情况
