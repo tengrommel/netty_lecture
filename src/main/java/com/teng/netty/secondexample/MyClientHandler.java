@@ -2,8 +2,6 @@ package com.teng.netty.secondexample;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class MyClientHandler extends SimpleChannelInboundHandler<String> {
