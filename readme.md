@@ -41,3 +41,7 @@ rpc很多RPC框架是跨语言的。
 - 3、在客户端与服务器端分别引入RPC编译器所生成的文件，即可像调用本地方法一样调用远程方法。
 
 # netty 和protobuf的整合
+
+# Apache Thrift
+
+- scalable cross-language service
