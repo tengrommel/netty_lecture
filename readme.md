@@ -54,7 +54,7 @@ rpc很多RPC框架是跨语言的。
 我们是面向块(block)或是缓冲区(buffer)编程的。Buffer本身就是一块内存，底层实现上，它实际上是个数组。数据的读、写都是通过Buffer来实现的。
 
 除了数组之外，Buffer还提供了对于数据的结构化访问方式，并且追踪到系统的读写过程。
->Java中的8种原生数据类型都有各自对应的Buffer类型，如IntBuffer,LongBuffer,ByteBuffer及CharBuffer等等
+>Java中的7种原生数据类型都有各自对应的Buffer类型，如IntBuffer,LongBuffer,ByteBuffer及CharBuffer等等 （并没有BooleanBuffer）
 
 - Channel指的是可以向其写入数据或是从中读取数据的对象，它类似于java.io中的Stream。
 
@@ -63,3 +63,5 @@ rpc很多RPC框架是跨语言的。
 - 与Stream不同的是，Channel是双向的，一个流只可能是InputStream或是OutputStream，Channel打开后则可以进行读取、写入或是读写。
 
 - 由于是Channel是双向的，因此它能更好地反应出底层操作系统的真是情况；在Linux系统中，底层操作系统的通道就是双向的。
+
+关于NIO Buffer中的3个重要状态属性的含义
