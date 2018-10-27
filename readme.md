@@ -65,3 +65,17 @@ rpc很多RPC框架是跨语言的。
 - 由于是Channel是双向的，因此它能更好地反应出底层操作系统的真是情况；在Linux系统中，底层操作系统的通道就是双向的。
 
 关于NIO Buffer中的3个重要状态属性的含义
+
+ServerSocket serverSocket = ......
+serverSocket.bind(8899);
+
+while(true) {
+    Socket socket = serverSocket.accept(); // 阻塞方法
+    new Thread(socket);
+    run(){
+        socket.getInputStream().
+        ......
+        ......    
+    }
+}
+
