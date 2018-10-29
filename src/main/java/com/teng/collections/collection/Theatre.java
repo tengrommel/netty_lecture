@@ -1,11 +1,10 @@
 package com.teng.collections.collection;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Theatre {
 	private final String theatreName;
-	private List<Seat> seats = new ArrayList<Seat>();
+	private Collection<Seat> seats = new LinkedHashSet<>();
 
 	// 初始化影院
 	public Theatre(String theatreName, int numRows, int seatsPerRow) {
