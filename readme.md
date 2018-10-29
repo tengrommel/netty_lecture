@@ -79,4 +79,7 @@ while(true) {
     }
 }
 
-# NIO中的零拷贝
+# netty的源码分析
+
+bossGroup 
+workerGroup
