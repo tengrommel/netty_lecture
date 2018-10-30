@@ -83,3 +83,6 @@ while(true) {
 
 bossGroup 
 workerGroup
+
+# 数组和ArrayList
+数组长度是有限制的，而ArrayList是可以存放任意数量的对象，长度不受限制
